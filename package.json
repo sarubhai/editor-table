@@ -1,13 +1,17 @@
 {
   "name": "@saurav.mitra/editor-table",
   "description": "Table for Editor.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "license": "MIT",
   "main": "./dist/bundle.js",
   "scripts": {
     "build": "webpack --mode production",
     "build:dev": "webpack --mode development --watch",
     "lint": "./node_modules/.bin/eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sarubhai/editor-table.git"
   },
   "keywords": [
     "codex",
@@ -16,6 +20,7 @@
     "editor.js",
     "editorjs"
   ],
+  "author": "Saurav Mitra",
   "devDependencies": {
     "autoprefixer": "^9.3.1",
     "css-loader": "^1.0.0",
