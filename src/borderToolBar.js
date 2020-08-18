@@ -164,7 +164,6 @@ class BorderToolBar {
     const line = create('div', [CSS.highlightingLine])
 
     line.addEventListener('click', event => {
-      console.log('line click 禁止')
       event.stopPropagation()
       // const e = new CustomEvent('click', {'bubbles': true});
 

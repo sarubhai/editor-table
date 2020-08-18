@@ -30,7 +30,7 @@ class Table {
   static get toolbox() {
     return {
       icon: svgIcon,
-      title: this.i18n === 'en' ? 'Table': '表格'
+      title: this.i18n === 'en' ? 'Table': 'Table'
     };
   }
 
