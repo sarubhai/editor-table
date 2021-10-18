@@ -1,7 +1,7 @@
 {
   "name": "@saurav.mitra/editor-table",
   "description": "Table for Editor.js",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "license": "MIT",
   "main": "./dist/bundle.js",
   "scripts": {
@@ -22,17 +22,17 @@
   ],
   "author": "Saurav Mitra",
   "devDependencies": {
-    "autoprefixer": "^9.8.6",
-    "css-loader": "^1.0.0",
-    "cssnano": "^4.1.7",
-    "eslint": "^5.8.0",
+    "autoprefixer": "^10.3.7",
+    "css-loader": "^6.4.0",
+    "cssnano": "^5.0.8",
+    "eslint": "^8.0.1",
     "eslint-config-codex": "github:codex-team/eslint-config",
-    "postcss-loader": "^3.0.0",
-    "postcss-nested": "^4.2.3",
-    "postcss-nesting": "^7.0.0",
-    "style-loader": "^0.23.1",
+    "postcss-loader": "^6.2.0",
+    "postcss-nested": "^5.0.6",
+    "postcss-nesting": "^8.0.1",
+    "style-loader": "^3.3.0",
     "svg-inline-loader": "^0.8.2",
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12"
+    "webpack": "^5.58.2",
+    "webpack-cli": "^4.9.0"
   }
 }

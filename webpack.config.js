@@ -12,11 +12,22 @@ module.exports = {
     rules: [
       {
         test: /\.pcss$/,
-        use: ['style-loader', 'css-loader', 'postcss-loader']
+        use: [
+          { loader: 'style-loader' },
+          { loader: 'css-loader' },
+          { loader: 'postcss-loader' }
+        ]
       },
       {
         test: /\.svg$/,
-        loader: 'svg-inline-loader?removeSVGTagAttrs=false'
+        use: [
+          {
+            loader: 'svg-inline-loader',
+            options: {
+              removeSVGTagAttrs: false
+            }
+          }
+        ]
       }
     ]
   }
